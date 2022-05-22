@@ -36,7 +36,7 @@ class LoginCubit extends Cubit<LoginStates> {
         emit(LoginSuccessState(signInModel));
 
         token = signInModel.token;
-        userID = signInModel.user?.sId;
+         userID = signInModel.user?.sId;
 
       } else {
         print("true");
